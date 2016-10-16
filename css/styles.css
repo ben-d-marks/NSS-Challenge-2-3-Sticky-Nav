@@ -1,0 +1,214 @@
+/* GENERAL ****************************/
+
+h2 {
+  font-size: 1.75em;
+  font-weight: 600;
+  color: black;
+  font-family: 'Ruslan Display', cursive;
+  margin-left: 4em;
+}
+
+body {
+  background-color: #6C5E56;
+  color: #99928E;
+  max-width: 100%
+}
+
+a:visited {
+  color: initial;
+  text-decoration: none;
+}
+
+/* NAVBAR *****************************/
+
+.top-nav {
+  margin-right: 2em;
+}
+
+.top-nav li {
+  font-family: 'Ruslan Display', cursive;
+  font-size: .7em;
+  list-style: none;
+  padding: .5em;
+  margin: .25em;
+  display: inline-block;
+  background-color: #ead1c4;
+  color: #2e2e2e;
+  width: 8%;
+  height: 5%;
+  border-radius: 1em;
+  float: right;
+}
+
+.aside-nav {
+  width: 25%;
+  float: left;
+  font-family: 'Ruslan Display', cursive;
+}
+
+.aside-nav li {
+  background-color: #999eee;
+  padding: 5px;
+  list-style: none;
+}
+
+/*1. When the user hovers over one of the links, the color of the text should change.*/
+.m2-css-ex4-link1 a:hover {
+  color: #8e4a1f;
+}
+
+/*1. When the user hovers over one of the links, the background color of the element that contains the link should change.*/
+.m2-css-ex4-link2 a:hover {
+  background-color: #f2a621;
+}
+
+/*1. When the user clicks on one of the links, the element that contains the link should grow in size by 5px on the left and right.*/
+.m2-css-ex4-link3:active,
+.m2-css-ex4-link3:visited {
+  padding: 5px 10px;
+}
+
+/* CLASSES ****************************/
+.tagline {
+  float: left;
+}
+
+.blog-entry {
+  margin: 1em 0;
+}
+
+.col-articles {
+  width: 70%;
+  float: left;
+  margin-left: 5%;
+}
+
+.col-articles h1,
+.col-articles h3 {
+  font-family: 'Lalezar', cursive;
+}
+
+.img-inset {
+  float: left;
+  margin-right: 1.5em; 
+}
+
+.byline {
+  text-align: right;
+  line-height: -.05em;
+}
+
+/* IDs ********************************/
+/*Copy and paste your blog article HTML into the `index.html` file for this exercise. For each article on your blog page, you need to have the following things to be unique.*/
+/*1. A different background color.*/
+/*1. A different font family.*/
+/*1. A different font size.*/
+/*1. A different font color.*/
+/*1. A different line height.*/
+/*1. A different padding value.*/
+/*1. Each should have a border, but with rounded corners of different size (e.g. one article could have barely rounded borders, but the next one could be almost circular in shape)*/
+
+#date20161003 {
+  background-color: #ffcf9e;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 1em;
+  color: #b07436;
+  line-height: 1em;
+  padding: 1em;
+  border: 3px dotted #64929f;
+  border-radius: 1em;
+}
+
+#date20160827 {
+  background-color: #b771a9;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.1em;
+  color: #ecd0e6;
+  text-shadow: 1px 1px 2px #7e276e
+  line-height: .75em;
+  padding: 3em;
+  border: 1px solid #f5fcdf;
+  border-radius: 2em;
+}
+
+#date20160617 {
+  background-color: #6a8ba4;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: .8em;
+  color: #b07a36;
+  line-height: 1.3em;
+  padding: 5em;
+  border: .5em dashed #cedce7;
+  border-radius: 6em;
+}
+
+#date20160214 {
+  background-color: #d7adca;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 1.2em;
+  color: #8228cb;
+  line-height: 1em;
+  padding: 2em;
+  border: 7px double #8ba773;
+  border-radius: .25em;
+}
+
+#date20151219 {
+  background-color: #402f79;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 1.3;
+  color: #fff5c2;
+  line-height: .9em;
+  padding: 0;
+  border: .75em groove #b09b36;
+  border-radius: 10em;
+}
+
+#branding {
+  float: left;
+  position: fixed;
+  top: 0;
+}
+
+#branding,
+#circle-c {
+  width: 100%;
+  padding: 1em .5em;
+  background-color: #8B7084;
+  box-shadow: inset 0 0 10px #4F3F4B;
+}
+
+#branding img {
+  float: left;
+}
+
+#wrapper {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 150px;
+  font-family: 'Raleway', sans-serif;
+  clear: both;
+}
+
+/* FOOTER *****************************/
+
+#circle-c {
+  clear: both;
+  text-align: center;
+}
+
+/**************************************/
+/**************************************/
+
+
+
+
+/*
+logo sidebar
+font-family: 'Ruslan Display', cursive;
+section headings
+font-family: 'Lalezar', cursive;
+body p tagline
+font-family: 'Raleway', sans-serif
+*/
+
